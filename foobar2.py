@@ -40,10 +40,3 @@ def answer(l):
         return 0
     
     return sorted(l,cmp=compare)
-
-
-print answer(['3','2.0','3.1','1.0.5'])
-
-
-
-print answer(['2.0.0','2.0','2.1.2','2.1.1', '2.0.1', '2.3', '1.0','1','1.0.0', '2.0.0', '2'])
